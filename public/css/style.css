@@ -54,4 +54,8 @@ h1.ui.inverted.header {
 	h1.ui.inverted.header {
 		font-size: 2em;
 	}
+
+	.ui.inverted.vertical.footer.segment {
+		padding-left: 30px;
+	}
 }
