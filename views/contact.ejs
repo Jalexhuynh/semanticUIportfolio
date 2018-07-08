@@ -7,4 +7,33 @@
 		<h2>Feel free to check out my porfolio!</h2>
 	</div>
 
+	<div class="ui container">
+		<form class="ui form">
+			<div class="field">
+				<label>Name</label>
+				<div class="two fields">
+					<div class="field">
+						<input type="text" name="first-name" placeholder="First Name">
+					</div>
+					<div class="field">
+						<input type="text" name="last-name" placeholder="Last Name">
+					</div>
+				</div>
+			</div>
+			<div class="field">
+				<label>Email</label>
+				<input type="email" name="email" placeholder="Email">
+			</div>
+			<div class="field">
+				<label>Message</label>
+				<textarea rows="6" name="message"></textarea>				
+			</div>
+			<div class="ui primary submit button">Submit</div>
+			<div class="ui error message"></div>
+		</form>
+	</div>
+
+	<div class="ui segment"></div>
+
+
 <% include partials/footer %>
