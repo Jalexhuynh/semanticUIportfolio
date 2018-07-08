@@ -51,6 +51,9 @@ function main() {
 			]
 		  }
 		}
-	  })
-	;
+	  });
+
+	$("#test").progress();
+	$("#test2").progress();
+	$("#test3").progress();
 }
