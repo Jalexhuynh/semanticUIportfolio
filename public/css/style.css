@@ -1,0 +1,47 @@
+.masthead h1.ui.header {
+    padding-top: 6em;
+    margin-bottom: 0em;
+    font-size: 4em;
+    font-weight: normal;
+}
+
+.masthead.segment {
+	background-color: royalblue;
+	border-radius: 0px;
+	margin-top: 36px;
+}
+
+.masthead.segment {
+	min-height: 700px;
+}
+
+
+.ui.top.inverted.sidebar.labeled.icon.menu .item {
+	margin: 0 auto;
+}
+
+.ui.top.inverted.sidebar.labeled.icon.menu .item:hover {
+	text-shadow: 0px 0px 5px rgba(0, 0, 255, 1);
+}
+
+.ui.menu .item:before {
+	width: 0px;
+}
+
+#right-sidebar-toggle {
+	position: fixed;
+	width: 100%;
+	border-radius: 0px;
+}
+
+@media only screen and (max-width: 700px) {
+	.masthead.segment {
+		min-height: 350px;
+	}
+	.masthead h1.ui.header {
+		font-size: 2em;
+	}
+	.ui.inverted.vertical.footer .item, .ui.inverted.header {
+		text-align: center;
+	}
+}

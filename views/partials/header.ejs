@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Semantic UI</title>
+			<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.css">
+			<link rel="stylesheet" type="text/css" href="css/style.css">
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.3.2/semantic.min.js"></script>
+
+			<script type="text/javascript">
+				function main() {
+					$('.ui.top.sidebar').sidebar({
+						dimPage: true,
+						transition: 'overlay',
+						exclusive: false,
+						closable: true
+					});
+
+					$('.ui.top.sidebar')
+						.sidebar('attach events', '#right-sidebar-toggle', 'toggle');
+				}
+				$(document).ready(main);
+			</script>
+		</head>
+		<body>
+			<div class="ui top inverted sidebar labeled icon menu">
+				<a class="item">
+					<i class="home icon"></i>
+					Home
+				</a>
+				<a class="item">
+					<i class="user circle icon"></i>
+					About Me
+				</a>
+				<a class="item">
+					<i class="edit icon"></i>
+					Portfolio
+				</a>
+				<a class="item">
+					<i class="envelope icon"></i>
+					Contact
+				</a>
+			</div>
+
+			<div class="pusher">
+				<div id="right-sidebar-toggle" class="ui black button">
+					<i class="bars icon"></i>
+				</div>
