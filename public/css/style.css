@@ -41,6 +41,7 @@ h1.ui.inverted.header {
 
 .ui.top.inverted.sidebar.labeled.icon.menu .item {
 	margin: 0 auto;
+	width: 25%;
 }
 
 .ui.menu .item:before {
