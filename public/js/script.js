@@ -41,6 +41,15 @@ function main() {
 			  }
 			]
 		  },
+		  subject: {
+			identifier: 'subject',
+			rules: [
+			  {
+				type   : 'empty',
+				prompt : 'Please enter an email subject.'
+			  }
+			]
+		  },
 		  message: {
 			identifier: 'message',
 			rules: [
