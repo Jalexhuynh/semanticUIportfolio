@@ -1,3 +1,7 @@
+body {
+	border-radius: 0px;
+}
+
 h1.ui.inverted.header {
     padding-top: 6em;
     margin-bottom: 0em;
@@ -11,13 +15,16 @@ h1.ui.inverted.header {
 	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */	
 }
 
-.ui.black.button {
+#right-sidebar-toggle {
 	position: fixed;
+	width: 100%;
+	border-radius: 0px;
 	z-index: 1;
 }
 
 .masthead.segment {
-	margin-top: 36px;
+	margin-top: 0px;
+	padding-top: 36px;
 	min-height: 700px;
 	background-image: url(../img/jumbotron.jpg);
 	background-size: cover;
@@ -38,12 +45,6 @@ h1.ui.inverted.header {
 
 .ui.menu .item:before {
 	width: 0px;
-}
-
-#right-sidebar-toggle {
-	position: fixed;
-	width: 100%;
-	border-radius: 0px;
 }
 
 @media only screen and (max-width: 700px) {
