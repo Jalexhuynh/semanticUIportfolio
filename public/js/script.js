@@ -78,7 +78,7 @@ var education = {
 			"degree": "Bachelors of Science",
 			"major": "Microbiology, Immunology, and Molecular Genetics",
 			"location": "CA",
-			"years": "2011 - 2015"
+			"years": "Sep. 2011 -  Jun. 2015"
 		}
 	]
 };
@@ -90,7 +90,7 @@ var work = {
 			"title": "Research Technician I",
 			"employer": "La Jolla Institute for Allergy & Immunology",
 			"location": "San Diego, CA",
-			"dates": "DEC 2015 - JAN 2017",
+			"dates": "Dec. 2015 - Jan. 2017",
 			"description": "Conducted research on human immune responses to Tuberculosis (TB) though ELISPOT assays" + 
 						   " analysis of Mucosal-Associate Invariant T (MAIT) cells by flow cytometry and in-vitro" + 
 						   " assays, as well as routinely isolating peripheral blood mononuclear cells (PBMCs) from" +
@@ -101,7 +101,7 @@ var work = {
 			"title": "Research Technician I",
 			"employer": "USC Keck School of Medicine",
 			"location": "Los Angeles, CA",
-			"dates": "AUG 2015 - OCT 2015",
+			"dates": "Aug. 2015 - Oct. 2015",
 			"description": "Processed HIV samples through RNA extractions of infected Plasma, PCR runs, and gel" + 
 						   " electrophoresis. Assisted in 454 sequencing, and led the design of PCR primers using" + 
 						   " python code to determine the best primer pair to use for amplification of pol and env" +
@@ -111,7 +111,7 @@ var work = {
 			"title": "Barista",
 			"employer": "UCLA Bruin Cafe",
 			"location": "Los Angeles, CA",
-			"dates": "SEP 2012 - JUN 2014",
+			"dates": "Sep. 2012 - Jun. 2014",
 			"description": "Managed and cooperated with team members to perform various assigned tasks, as well as" +
 						   " handle independent duties without requiring supervision. Also took charge of training" + 
 						   " new employees in performing their assigned positions. "
@@ -147,7 +147,7 @@ function displayWork() {
 		var formattedWorkEmployer 		= HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
 		var formattedWorkDates 			= HTMLworkDates.replace("%data%", work.jobs[job].dates);
 		var formattedWorkLocation 		= HTMLworkLocation.replace("%data%", work.jobs[job].location);
-		var formattedFullEmployer		= formattedWorkEmployer + formattedWorkDates + formattedWorkLocation;
+		var formattedFullEmployer		= formattedWorkEmployer + formattedWorkLocation + formattedWorkDates;
 		var formattedWorkDescription 	= HTMLworkDescription.replace("%data%", work.jobs[job].description);
 
 		$("#work-experience").append(HTMLworkStart);
