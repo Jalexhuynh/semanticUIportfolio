@@ -51,8 +51,8 @@ h1.ui.inverted.header {
 }
 
 .stackable.container.grid p, .ui.list ul {
-	line-height: 34px;
-	font-size: 17px;
+	line-height: 28px;
+	font-size: 14px;
 }
 
 #test {
@@ -66,7 +66,8 @@ h1.ui.inverted.header {
 
 @media only screen and (max-width: 700px) {
 	.masthead.segment {
-		background-position: 0px 20px;
+		background-size: 855px 570px; 
+		background-position: -155px 20px;
 		min-height: 350px;
 	}
 
