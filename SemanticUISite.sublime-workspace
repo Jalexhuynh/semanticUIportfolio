@@ -4,16 +4,52 @@
 		"selected_items":
 		[
 			[
+				"text-",
+				"text-transform\tproperty"
+			],
+			[
+				"bac",
+				"background-origin\tproperty"
+			],
+			[
+				"background",
+				"background-attachment\tproperty"
+			],
+			[
+				"formattedF",
+				"formattedFullEmployer"
+			],
+			[
+				"formattedw",
+				"formattedWorkLocation"
+			],
+			[
+				"formattedW",
+				"formattedWorkDates"
+			],
+			[
+				"formatted",
+				"formattedSchoolYears"
+			],
+			[
+				"formattedS",
+				"formattedSchoolLocation"
+			],
+			[
+				"forma",
+				"formattedSchoolMajor"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
 				"backgrou",
 				"background-image\tproperty"
 			],
 			[
 				"align",
 				"align-items\tproperty"
-			],
-			[
-				"text-",
-				"text-align\tproperty"
 			],
 			[
 				"te",
@@ -42,10 +78,6 @@
 			[
 				"box-s",
 				"box-sizing\tproperty"
-			],
-			[
-				"background",
-				"background-color\tproperty"
 			],
 			[
 				"todo",
@@ -190,10 +222,6 @@
 			[
 				"HTML",
 				"HTMLeventStart"
-			],
-			[
-				"forma",
-				"formattedEventPictures"
 			],
 			[
 				"HTMLeven",
@@ -384,10 +412,6 @@
 				"transparent"
 			],
 			[
-				"bac",
-				"background-color"
-			],
-			[
 				"border-co",
 				"border-color"
 			],
@@ -490,35 +514,20 @@
 			[
 				"section-",
 				"section-details"
-			],
-			[
-				"resume-",
-				"resume-body"
-			],
-			[
-				"text-al",
-				"text-align"
-			],
-			[
-				"diction",
-				"dictionary_name"
-			],
-			[
-				"loop",
-				"loop_condition"
-			],
-			[
-				"dic",
-				"dictionary_name"
-			],
-			[
-				"ATT",
-				"ATTRIBUTE_1"
 			]
 		]
 	},
 	"buffers":
 	[
+		{
+			"file": "public/js/script.js",
+			"settings":
+			{
+				"buffer_size": 5639,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -581,26 +590,34 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site"
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/img",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/libs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials"
 	],
 	"file_history":
 	[
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/footer.ejs",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css/style.css",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/contact.ejs",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/about.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/index.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css/style.css",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/script.js",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/helper.js",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/about.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/footer.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/huynhjustin.com bootstrap/index.html",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/contact.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/about.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/package.json",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/partials/header.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/portfolio.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/home.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/public/css/main.css",
-		"/Users/justinhuynh/Documents/Coding Practice/huynhjustin.com bootstrap/index.html",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/partials/footer.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/contact.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/app.js",
@@ -711,8 +728,7 @@
 		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/index.html",
 		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/mcz/takagi-reni.html",
 		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/events.html",
-		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/members.html",
-		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/mcz.html"
+		"/D/Users/Justin Huynh/Desktop/Socal Mononofu Bootstrap/Site 1.5 - 12.11.17/members.html"
 	],
 	"find":
 	{
@@ -730,6 +746,15 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"big",
+			"large",
+			"massive",
+			"big",
+			"i class",
+			"i",
+			"h2",
+			"column",
+			"h1"
 		],
 		"highlight": false,
 		"in_selection": false,
@@ -747,8 +772,39 @@
 	"groups":
 	[
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "public/js/script.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5639,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3685,
+								3685
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"translate_tabs_to_spaces": false,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 857.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
