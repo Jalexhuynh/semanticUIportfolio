@@ -62,7 +62,7 @@ function main() {
 		}
 	  });
 
-	$("#test").progress();
+	$("#test1").progress();
 	$("#test2").progress();
 	$("#test3").progress();
 }

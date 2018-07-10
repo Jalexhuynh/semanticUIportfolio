@@ -1,5 +1,6 @@
 body {
 	border-radius: 0px;
+	font-family: Open Sans;
 }
 
 h1.ui.inverted.header {
@@ -46,6 +47,21 @@ h1.ui.inverted.header {
 
 .ui.menu .item:before {
 	width: 0px;
+}
+
+.stackable.container.grid p {
+	line-height: 34px;
+	font-size: 17px;
+	font-weight: lighter;
+}
+
+#test {
+	background-color: red;
+}
+
+.ul.icon.header i.icon {
+	display: inline;
+	float: left;
 }
 
 @media only screen and (max-width: 700px) {
