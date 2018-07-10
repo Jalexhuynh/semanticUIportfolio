@@ -67,6 +67,7 @@ function main() {
 	$("#test3").progress();
 	displayEducation();
 	displayWork();
+	displaySkills();
 }
 
 var education = {
@@ -118,6 +119,12 @@ var work = {
 	]
 };
 
+var skills = {
+	"comfortable":
+	["HTML5", "CSS3", "Javascript", "jQuery", "Version Control (Git)", "Bootstrap", "Responsive Design", "Adobe Photoshop", "Adobe Illustrator"],
+	"progress": ["Express", "Node.JS", "SemanticUI", "Adobe InDesign"]
+};
+
 function displayEducation() {
 	for (school in education.schools) {
 		var formattedSchoolName 		= HTMLschoolName.replace("%data%", education.schools[school].name);
@@ -151,18 +158,17 @@ function displayWork() {
 	};
 };
 
-var skills = {
-	"skills":
-	["Programming", "Web Design", "Microbiology", "Graphic Design",
-				"Javascript", "HTML", "CSS", "Python", "Adobe Photoshop"]
-};
+function displaySkills() {
+	$(".skills-one").append(HTMLskillsStart);
+	$(".skills-two").append(HTMLskillsProgressStart);
 
-var displaySkills = function() {
-	$("#skills").append(HTMLskillsStart);
-	for (skill in skills.skills) {
-		var formattedSkill = HTMLskillsItem.replace("%data%", skills.skills[skill]);
+	for (skill in skills.comfortable) {
+		var formattedSkill = HTMLskillsItem.replace("%data%", skills.comfortable[skill]);
 		$(".skills-entry:last").append(formattedSkill);
 	};
-};
 
-displaySkills();
+	for (skill in skills.progress) {
+		var formattedSkill = HTMLskillsItem.replace("%data%", skills.progress[skill]);
+		$(".progress-skills-entry:last").append(formattedSkill);
+	};
+};

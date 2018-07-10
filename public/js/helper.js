@@ -13,4 +13,6 @@ var HTMLworkDates = '%data% ';
 var HTMLworkDescription = '<p>%data%</p><br>';
 
 var HTMLskillsStart = '<div class="ui list"><ul class="skills-entry"></ul></div>';
+var HTMLskillsProgressStart = '<div class="ui list"><ul class="progress-skills-entry"></ul></div>';
+var HTMLskillsHeader = '<h3 class="ui header">%data</h3>';
 var HTMLskillsItem = '<li class="item">%data%</li>';

@@ -28,6 +28,7 @@ h1.ui.inverted.header {
 	padding-top: 36px;
 	min-height: 700px;
 	background-image: url(../img/jumbotron.jpg);
+	background-attachment: fixed;
 	background-size: cover;
 	border-radius: 0px;
 	border: none;
@@ -49,10 +50,9 @@ h1.ui.inverted.header {
 	width: 0px;
 }
 
-.stackable.container.grid p {
+.stackable.container.grid p, .ui.list ul {
 	line-height: 34px;
 	font-size: 17px;
-	font-weight: lighter;
 }
 
 #test {
