@@ -601,6 +601,7 @@
 	],
 	"file_history":
 	[
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/index.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css/style.css",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/script.js",
@@ -609,7 +610,6 @@
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/about.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/footer.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/huynhjustin.com bootstrap/index.html",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/contact.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/about.ejs",
@@ -746,6 +746,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"ui segment",
 			"big",
 			"large",
 			"massive",
