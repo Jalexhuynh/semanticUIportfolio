@@ -21,6 +21,8 @@ app.get("/contact", function(res, res) {
 	res.render("contact");
 });
 
-app.listen(3000, function() {
-	console.log("Server online at localhost:3000");
-});
+// app.listen(3000, function() {
+// 	console.log("Server online at localhost:3000");
+// });
+
+app.listen(process.env.PORT, process.env.IP);
