@@ -527,6 +527,15 @@
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "views/portfolio.ejs",
+			"settings":
+			{
+				"buffer_size": 1431,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
@@ -601,8 +610,15 @@
 	],
 	"file_history":
 	[
+<<<<<<< HEAD
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
+=======
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css/style.css",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/index.ejs",
+>>>>>>> 80ff49900ce596616783a6e95433e1278b6095d3
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/script.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/package.json",
@@ -773,7 +789,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -789,8 +805,13 @@
 						"selection":
 						[
 							[
+<<<<<<< HEAD
 								0,
 								581
+=======
+								1615,
+								1615
+>>>>>>> 80ff49900ce596616783a6e95433e1278b6095d3
 							]
 						],
 						"settings":
@@ -798,6 +819,41 @@
 							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
+<<<<<<< HEAD
+=======
+						"translation.y": 1496.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "views/portfolio.ejs",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1431,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								550,
+								550
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+>>>>>>> 80ff49900ce596616783a6e95433e1278b6095d3
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
