@@ -13,6 +13,11 @@
 		<div class="ui container">
 			<div class="ui grid">
 				<div class="column center aligned">
+					<% if(message.length > 0) { %>
+						<div class="ui green message" role="alert">
+							<%= message %>
+						</div>
+					<% } %>
 					<h1 class="ui subheader">
 						Feel free to reach out to me through social media!
 					</h3>

@@ -1,14 +1,23 @@
-var express = require("express");
-	app     = express();
-	bodyParser = require('body-parser');
+var express 		= require('express'),
+	app     		= express(),
+	bodyParser 		= require('body-parser'),
+	session			= require('express-session'),
+	flash 			= require('connect-flash');
 
 'use strict';
 const nodemailer = require('nodemailer');
 
-
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({extended: true}));
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: false }
+}));
+
+app.use(flash());
 
 app.get("/", function(req, res) {
 	res.render("index");
@@ -23,7 +32,7 @@ app.get("/portfolio", function(req, res) {
 });
 
 app.get("/contact", function(req, res) {
-	res.render("contact");
+	res.render("contact", {message: req.flash("success")});
 });
 
 app.post("/contact", function(req, res) {
@@ -71,6 +80,7 @@ app.post("/contact", function(req, res) {
 
 		// Yay!! Email sent
 		else {
+			req.flash("success", "Your message has been sent!");
 			res.redirect("/contact");
 		}
 	});
