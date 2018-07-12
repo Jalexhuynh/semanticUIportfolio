@@ -77,6 +77,10 @@ h1.ui.inverted.header {
 	float: right;
 }
 
+#portfolio-images {
+	margin-bottom: 50px;
+}
+
 @media only screen and (max-width: 700px) {
 	.masthead.segment {
 		background-size: 855px 570px; 
@@ -96,4 +100,7 @@ h1.ui.inverted.header {
 	.ui.inverted.vertical.footer.segment {
 		padding-left: 30px;
 	}
+
+	.ui.top.inverted.sidebar.labeled.icon.menu .item {
+	font-size: 12px;
 }
