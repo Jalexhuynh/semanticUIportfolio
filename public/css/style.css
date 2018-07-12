@@ -23,6 +23,14 @@ h1.ui.inverted.header {
 	z-index: 1;
 }
 
+.ui.segment {
+	margin: 0px;
+}
+
+.ui.basic.segment {
+	padding: 60px 0px;
+}
+
 .masthead.segment {
 	margin-top: 0px;
 	padding-top: 36px;
@@ -34,6 +42,7 @@ h1.ui.inverted.header {
 	border: none;
 	text-align: right;
 	color: white;
+	margin-bottom: 0px;
 }
 
 .content {
@@ -59,7 +68,23 @@ h1.ui.inverted.header {
 }
 
 #test {
-	background-color: red;
+	font-size: 20px;
+	line-height: 50px;
+	font-weight: lighter;
+	padding: 50px 0px;
+}
+
+#contactbutton {
+	padding: 20px 35px;
+	color: white;
+}
+
+#contactbutton a {
+	color: white;
+}
+
+#contactbutton a:hover {
+	color: #0E6EB8;
 }
 
 .ui.header.title {
@@ -75,10 +100,6 @@ h1.ui.inverted.header {
 
 .dates {
 	float: right;
-}
-
-#portfolio-images {
-	margin-bottom: 50px;
 }
 
 @media only screen and (max-width: 700px) {
