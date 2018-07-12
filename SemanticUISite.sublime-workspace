@@ -520,27 +520,10 @@
 	"buffers":
 	[
 		{
-			"file": "app.js",
+			"file": "README.md",
 			"settings":
 			{
-				"buffer_size": 538,
-				"encoding": "UTF-8",
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "public/js/script.js",
-			"settings":
-			{
-				"buffer_size": 5639,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "views/partials/header.ejs",
-			"settings":
-			{
-				"buffer_size": 1005,
+				"buffer_size": 581,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -618,18 +601,18 @@
 	],
 	"file_history":
 	[
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
+		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/script.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/portfolio.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/package.json",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/css/style.css",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/header.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/index.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/public/js/helper.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/about.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/partials/footer.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/huynhjustin.com bootstrap/index.html",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/views/contact.ejs",
-		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/SemanticUI Site/app.js",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/about.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/partials/header.ejs",
 		"/Users/justinhuynh/Documents/Coding Practice/Udemy Courses/Web Development/TerminalPractice/views/portfolio.ejs",
@@ -790,93 +773,35 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app.js",
+					"file": "README.md",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 538,
+						"buffer_size": 581,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								493,
-								538
+								581,
+								581
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "public/js/script.js",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 5639,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Markdown/Markdown.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "views/partials/header.ejs",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1005,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								134,
-								134
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/EJS 2/EJS.sublime-syntax",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
 					"type": "text"
 				}
 			]
