@@ -86,9 +86,16 @@ app.post("/contact", function(req, res) {
 	});
 });
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 80ff49900ce596616783a6e95433e1278b6095d3
 // app.listen(3000, function() {
 // 	console.log("Server online at localhost:3000");
 // });
 
+<<<<<<< HEAD
 app.listen(process.env.PORT, process.env.IP);
+=======
+app.listen(process.env.PORT, process.env.IP);
+>>>>>>> 80ff49900ce596616783a6e95433e1278b6095d3
