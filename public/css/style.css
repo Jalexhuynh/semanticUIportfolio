@@ -35,7 +35,6 @@ h1.ui.inverted.header {
 	margin-top: 0px;
 	padding-top: 36px;
 	min-height: 700px;
-	background-image: url(../img/jumbotron.jpg);
 	background-attachment: fixed;
 	background-size: cover;
 	border-radius: 0px;
@@ -43,6 +42,24 @@ h1.ui.inverted.header {
 	text-align: right;
 	color: white;
 	margin-bottom: 0px;
+}
+
+#masthead-1 {
+	background-image: url(../img/jumbotron.jpg);
+}
+
+#masthead-2 {
+	background-image: url(../img/jumbotron2.jpg);
+	text-align: left;
+}
+
+#masthead-3 {
+	background-image: url(../img/jumbotron4.png);
+}
+
+#masthead-4 {
+	background-image: url(../img/jumbotron3.png);
+	text-align: left;
 }
 
 .content {
@@ -102,10 +119,29 @@ h1.ui.inverted.header {
 	float: right;
 }
 
+@media only screen and (max-width: 900px) {
+	#masthead-2, #masthead-4 {
+		background-size: 1300px 866px; 
+		background-position: -250px 20px;
+	}
+}
+
 @media only screen and (max-width: 700px) {
-	.masthead.segment {
+	#masthead-1, #masthead-2, #masthead-3, #masthead-4 {
 		background-size: 855px 570px; 
 		background-position: -155px 20px;
+		min-height: 350px;
+	}
+
+	#masthead-2, #masthead-4 {
+		background-size: 1100px 733px; 
+		background-position: -400px -40px;
+		min-height: 350px;
+	}
+
+	#masthead-3 {
+		background-size: 800px 533px; 
+		background-position: -100px -50px;
 		min-height: 350px;
 	}
 
