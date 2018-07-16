@@ -87,8 +87,5 @@ app.post("/contact", function(req, res) {
 });
 
 
-app.listen(3000, function() {
-	console.log("Server online at localhost:3000");
-});
 
-// app.listen(process.env.PORT, process.env.IP);
+app.listen(process.env.PORT || 3000, process.env.IP);
