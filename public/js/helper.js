@@ -7,7 +7,7 @@ var HTMLschoolDates = '<span class="dates">%data%</span></p>';
 
 var HTMLworkStart = '<div class="work-entry"></div>';
 var HTMLworkTitle = '<h3 class="ui header title">%data%</h3>';
-var HTMLworkEmployer = '<p>%data% ';
+var HTMLworkEmployer = '<p>%data%';
 var HTMLworkLocation = '%data%';
 var HTMLworkDates = '<span class="dates">%data%<span></p>';
 var HTMLworkDescription = '<p>%data%</p><br>';

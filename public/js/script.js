@@ -62,9 +62,6 @@ function main() {
 		}
 	  });
 
-	$("#test1").progress();
-	$("#test2").progress();
-	$("#test3").progress();
 	displayEducation();
 	displayWork();
 	displaySkills();
@@ -86,6 +83,26 @@ var education = {
 var work = {
 	"jobs":
 	[
+		{
+			"title": "Advanced Cashier",
+			"employer": "Express",
+			"location": "Corona, CA",
+			"dates": "Nov. 2017 - Present",
+			"description": "Promoted from sales associate to advanced cashier within one year of hire. Provided" + 
+						   " dedicated customer service to support store revenue by identifying customer needs and" +
+						   " providing product recommendations. Assigned to the store’s visual team which maintained" +
+						   " and updated store layouts to maximize product visibility and aesthetic display."
+		},
+		{
+			"title": "Banquet Server",
+			"employer": "The Clubhouse at Anaheim Hills",
+			"location": "Anaheim Hills, CA",
+			"dates": "May 2017 - Aug. 2017",
+			"description": "Assisted in set-up, conductance, and breakdown, of various events such as: formal dinners," +
+						   " speeches, weddings, and celebrations of life. Provided dining guests with the highest" + 
+						   " of service to ensure a quality experience during both corporate and festive event" +
+						   " throughout the day. Was frequently in charge of balancing large numbers of customers."
+		},
 		{
 			"title": "Research Technician I",
 			"employer": "La Jolla Institute for Allergy & Immunology",
@@ -147,7 +164,7 @@ function displayWork() {
 		var formattedWorkEmployer 		= HTMLworkEmployer.replace("%data%", work.jobs[job].employer);
 		var formattedWorkDates 			= HTMLworkDates.replace("%data%", work.jobs[job].dates);
 		var formattedWorkLocation 		= HTMLworkLocation.replace("%data%", work.jobs[job].location);
-		var formattedFullEmployer		= formattedWorkEmployer + formattedWorkLocation + formattedWorkDates;
+		var formattedFullEmployer		= formattedWorkEmployer + ", " + formattedWorkLocation + formattedWorkDates;
 		var formattedWorkDescription 	= HTMLworkDescription.replace("%data%", work.jobs[job].description);
 
 		$("#work-experience").append(HTMLworkStart);
