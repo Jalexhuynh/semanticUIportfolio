@@ -97,6 +97,32 @@ h1.ui.inverted.header {
 	padding: 50px 0px;
 }
 
+#udemy {
+	display: flex;
+	justify-content: center;
+}
+
+#udemy h3 {
+	line-height: 50px;
+	font-size: 30px;
+	margin: 0;
+	color: #6D6568;
+	margin-left: 10px;
+}
+
+#progress-bars h4 {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #c7c7c7;
+	margin-bottom: 20px;
+	font-size: 12px;
+}
+
+#progress-bars {
+	margin-bottom: 20px;
+}
+
 #contactbutton {
 	padding: 20px 35px;
 	color: white;

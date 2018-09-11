@@ -62,6 +62,8 @@ function main() {
 		}
 	  });
 
+  $(".progress").progress();
+
 	displayEducation();
 	displayWork();
 	displaySkills();
@@ -139,7 +141,7 @@ var work = {
 var skills = {
 	"comfortable":
 	["HTML5", "CSS3", "Javascript", "jQuery", "Version Control (Git)", "Bootstrap (3.3.7)", "Responsive Design", "Adobe Photoshop", "Adobe Illustrator", "Flyer Design", "Business Card Design", "Logo Design"],
-	"progress": ["Express", "Node.JS", "SemanticUI", "Adobe InDesign"]
+	"progress": ["Express", "Node.JS", "SemanticUI", "Adobe InDesign", "Prototyping (Adobe XD, Sketch, Invision)"]
 };
 
 function displayEducation() {
