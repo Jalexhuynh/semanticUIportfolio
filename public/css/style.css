@@ -132,6 +132,22 @@ h1.ui.inverted.header {
 	border: 1px solid #ddd;
 }
 
+.adobeXD {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.adobeXD .column {
+	flex: 1 1 auto;
+	height: 600px;
+	max-width: 300px;
+}
+
+.adobeXD iframe {
+	height: 90%;
+}
+
 #contactbutton a {
 	color: white;
 }
