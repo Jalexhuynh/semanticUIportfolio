@@ -142,6 +142,10 @@ h1.ui.inverted.header {
 	flex-wrap: wrap;
 }
 
+.adobeXD img {
+	width: 300px;
+}
+
 .adobeXD .column {
 	flex: 1 1 auto;
 	height: 600px;
