@@ -86,7 +86,7 @@ var work = {
 	"jobs":
 	[
 		{
-			"title": "Advanced Cashier",
+			"title": "Temp Manager",
 			"employer": "Express",
 			"location": "Corona, CA",
 			"dates": "Nov. 2017 - Present",
