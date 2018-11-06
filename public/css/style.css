@@ -5,9 +5,13 @@ body, .ui.menu, .ui.header, .ui.black.button {
 
 h1.ui.inverted.header {
     padding-top: 6em;
-    margin-bottom: 0em;
+    margin: 0em 2em;
     font-size: 4em;
     font-weight: normal;
+}
+
+.content>h3 {
+	margin: 2em 6em;
 }
 
 .ui.inverted.menu, .ui.black.button {
@@ -199,6 +203,11 @@ h1.ui.inverted.header {
 
 	h1.ui.inverted.header {
 		font-size: 2em;
+		margin: 0em 1em;
+	}
+
+	.content>h3 {
+		margin: 2em 1em;
 	}
 
 	.dates {
@@ -212,4 +221,16 @@ h1.ui.inverted.header {
 
 	.ui.top.inverted.sidebar.labeled.icon.menu .item {
 	font-size: 12px;
+}
+
+@media only screen and (max-width: 570px) {
+
+	h1.ui.inverted.header {
+		margin: auto auto;
+		text-align: center;
+	}
+
+	.content>h3 {
+		text-align: center;
+	}
 }
