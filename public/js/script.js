@@ -84,12 +84,21 @@ var education = {
 
 var work = {
 	"jobs":
-	[
+	[ {
+		"title": "Designer",
+		"employer": "Firm Media",
+		"location": "Ontario, CA",
+		"dates": "Dec. 2018 - Present",
+		"description": "Responsible for providing high-fedelity web design" + 
+						 " mockups for clients. Regularly producing designs at" +
+						 " multiple screen sizes for responsive design. Also providing" +
+						 " print collateral for clients ranging from business card designs, to flyers and brochures, to letterheads. Works closely with the development team to ensure the final website satisfies current design, speed, and accessibility standards."
+		},
 		{
 			"title": "Temp Manager",
 			"employer": "Express",
 			"location": "Corona, CA",
-			"dates": "Nov. 2017 - Present",
+			"dates": "Nov. 2017 - Nov. 2018",
 			"description": "Promoted from sales associate to advanced cashier within one year of hire. Provided" + 
 						   " dedicated customer service to support store revenue by identifying customer needs and" +
 						   " providing product recommendations. Assigned to the store’s visual team which maintained" +
