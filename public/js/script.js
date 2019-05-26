@@ -85,7 +85,7 @@ var education = {
 var work = {
 	"jobs":
 	[ {
-		"title": "Designer",
+		"title": "Designer (Employee of the Month, Apr. 2019)",
 		"employer": "Firm Media",
 		"location": "Ontario, CA",
 		"dates": "Dec. 2018 - Present",
